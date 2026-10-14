@@ -23,5 +23,6 @@ Resource: <OWASP Top 10 for LLM Applications - LLM01: Prompt Injection> - <https
 Anonymisation irreversibly removes the ability to identify a person, considering information reasonably likely to be used for re-identification. Pseudonymization replaces identifying details with substitutes, but a person may still be identified using additional information. Properly anonymised data may fall outside data protection law, while pseudonymized data remains personal data under the GDPR. The classification depends on whether identification is realistically possible.
 Resource: <General Data Protection Regulation (GDPR) - Article 4(5) and Recital 26> - <https://eur-lex.europa.eu/eli/reg/2016/679/oj>
 ## Misconception in My Track
-
+A common misconception is that prompt injection can be completely prevented by telling the AI to ignore malicious instructions. In reality, attackers may hide instructions in external content, such as retrieved webpages or documents, which the AI processes as part of its task. A safer approach combines treating external content as untrusted, limiting the AI's permissions, and testing the system against attacks. No single instruction or defence guarantees complete protection.
+Resource evidence: <OWASP Top 10 for LLM Applications, LLM01: Prompt Injection> - <https://genai.owasp.org/llmrisk/llm01-prompt-injection/>
 ## Open Question
