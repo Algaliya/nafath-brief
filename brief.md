@@ -26,3 +26,4 @@ Resource: <General Data Protection Regulation (GDPR) - Article 4(5) and Recital 
 A common misconception is that prompt injection can be completely prevented by telling the AI to ignore malicious instructions. In reality, attackers may hide instructions in external content, such as retrieved webpages or documents, which the AI processes as part of its task. A safer approach combines treating external content as untrusted, limiting the AI's permissions, and testing the system against attacks. No single instruction or defence guarantees complete protection.
 Resource evidence: <OWASP Top 10 for LLM Applications, LLM01: Prompt Injection> - <https://genai.owasp.org/llmrisk/llm01-prompt-injection/>
 ## Open Question
+How can a government AI assistant distinguish malicious instructions hidden in official-looking documents from legitimate service guidance, while still providing accurate answers and protecting citizens' data?
