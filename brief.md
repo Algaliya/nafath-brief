@@ -14,11 +14,14 @@ Resource: <Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks> - <
 Apple's App Transport Security (ATS) requires secure HTTPS connections with appropriate TLS protection when apps use the standard URL Loading System. If an app attempts a plain HTTP request, ATS normally blocks it and reports the insecure connection. Developers should secure the server rather than disable ATS protections. Limited exceptions are possible, but they reduce security and should be used cautiously.
 Resource: <Preventing Insecure Network Connections> - <https://developer.apple.com/documentation/security/preventing-insecure-network-connections>
 ## Networking
-
+IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses, providing a vastly larger address space. This matters as governments connect more phones, sensors, servers and other devices. IPv6 supports continued growth and reduces pressure on the limited IPv4 address pool. However, deployment planning must still consider compatibility with existing IPv4 systems, security controls and network configuration.
+Resource: <RFC 8200 - Internet Protocol, Version 6 (IPv6) Specification> - <https://www.rfc-editor.org/rfc/rfc8200>
 ## Cybersecurity
-
+Prompt injection occurs when malicious instructions attempt to manipulate an AI model into ignoring its intended task or safety rules. Direct injection comes from a user's prompt; indirect injection is hidden in external content, such as a retrieved webpage or document. Two mitigations are to treat retrieved content as untrusted data and to restrict the assistant's tools and permissions. Neither measure alone eliminates the risk.
+Resource: <OWASP Top 10 for LLM Applications - LLM01: Prompt Injection> - <https://genai.owasp.org/llmrisk/llm01-prompt-injection/>
 ## Data
-
+Anonymisation irreversibly removes the ability to identify a person, considering information reasonably likely to be used for re-identification. Pseudonymization replaces identifying details with substitutes, but a person may still be identified using additional information. Properly anonymised data may fall outside data protection law, while pseudonymized data remains personal data under the GDPR. The classification depends on whether identification is realistically possible.
+Resource: <General Data Protection Regulation (GDPR) - Article 4(5) and Recital 26> - <https://eur-lex.europa.eu/eli/reg/2016/679/oj>
 ## Misconception in My Track
 
 ## Open Question
